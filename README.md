@@ -1,8 +1,1 @@
-# fkinghomework_nig
-# fkinghomework_nig
-# fkinghomework_nig
-# fkinghomework_nig
-# fkinghomework_nig
-# fkinghomework_nig
-# fkinghomework_nig
-# fkinghomework_nig
+# 出國的作業 bruh
