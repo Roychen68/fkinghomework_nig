@@ -17,21 +17,18 @@ const photoSets = {
     "1IP-0XZGxv35CIIr5wWHv9uZyN6hhMA_2"
   ],
   zermatt: [
-    "1aHTfAIj21boFgDl0-Jpu8JqgIXhe1VDn",
-    "12NmxgdX24tdaNd-rF0h8XF-SJrIECKaO",
-    "1OnfDUM34YTPFyGXgiok0zxqDWqELar6P",
-    "1npISQTi6jNigIcRjYRLliccPsEURbhgk",
-    "19xkWdCfA8TZkNjSe4RYOw_F5cenvW6hK",
-    "1E7Ehmy7PpGtIhg_rzgbqRBqMZACrc6wo",
-    "19JqVTjKxaB22sjAyuG5m27eCNKgyFMNj",
-    "1LvKOj1VM0ZJUQral23xgSad0d0NfoucB",
-    "1ZUJGjfIbKaTMPCP7r96ulHH3zJnjHEn7",
-    "1AxUHOq3pyTLMwV4ZDJQhToI1u5F4v0Oj",
-    "1Oo1Vq0Irribe-HnIUHzBvi1Z3F6ZTpha",
-    "1HPRDg82GVPBv6ty2ipYYoL3Gy-hH_AYo",
-    "1DR5WflDs56h4QTAEDHXTHg03tj2Os4O-",
-    "1YVX5LmycyTDJne4mVO_Nnf5GckPvNMNJ",
-    "17bMCkBYY7hknfSjnbaNESVw8ncl6m-WT"
+    "1SrFH7YyGyZBDAkjkFXdDYcNBIwZqlnig",
+    "1mjyNk8b7VGizcvSuLzD6FWg3wyxpO1oo",
+    "1gwx40QCayWeHLH5e0U5BOpuiX5hWHPup",
+    "1fVe78SChA5ICnTqoONF_GOKp5h1wgF-j",
+    "1KC-0qgDQf-ggstbK-SLHo7L7K67iv3Wi",
+    "1xgxJMF6glUA8nHu8vqVyICmcAXqFzP8E",
+    "1IjeREfX_67kSQQaZbotOmY4hilG7nQvK",
+    "1mrfLW2Hak2IqF7gRgISShE8OiPgBVO0D",
+    "1jIUiiv7IvqOA4TDiFPfyJ1FPm26_eoP_",
+    "1rEx0HkChMsophdl2S28Fli0C4oxI8rgs",
+    "1wQr-uJ8gdITDjF4_6C2AOOKog3mfirPq",
+    "1coQeaFNv3atOwzAY91pgB5P0Yn3mAtcl"
   ],
   thunChamonix: [
     "12kIda28ISRHmArUuv-KcOErzPrYjjerq",
