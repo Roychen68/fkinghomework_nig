@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>歐洲海外參訪成果發表</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="flight-map" aria-hidden="true">
+      <div class="map-camera">
+        <svg class="europe-map" viewBox="0 0 1400 900">
+          <defs>
+            <radialGradient id="cityGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#ffffff" stop-opacity="1"></stop>
+              <stop offset="48%" stop-color="#f4b860" stop-opacity="0.9"></stop>
+              <stop offset="100%" stop-color="#f4b860" stop-opacity="0"></stop>
+            </radialGradient>
+          </defs>
+          <path class="continent" d="M172 198 276 146l126 22 92-66 143 45 119-34 120 74 114-18 92 86 120 19 61 108-44 110 43 97-75 119-159-12-102 86-128-54-132 42-130-82-138 52-102-83-111 10-86-88 46-125-67-87 68-93Z"></path>
+          <path class="alps" d="M414 455 496 395l96 55 86-62 110 86 73-39 93 75-67 68-112-35-91 54-104-42-82 42Z"></path>
+          <path class="coast" d="M784 535c61 29 91 73 87 132-4 57 44 92 106 104 71 14 96 55 67 98"></path>
+          <path class="flight-path" d="M454 355 C520 420 545 465 560 500 S590 530 610 520 690 600 735 615 765 635 780 640 815 610 830 600 850 650 850 690 890 735 920 745 950 725 950 720 960 600 875 441"></path>
+          <path class="flight-progress" d="M454 355 C520 420 545 465 560 500 S590 530 610 520 690 600 735 615 765 635 780 640 815 610 830 600 850 650 850 690 890 735 920 745 950 725 950 720 960 600 875 441"></path>
+          <g class="destination active" data-map-pin="munich-bern" transform="translate(454 355)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">慕尼黑 / 伯恩</text><text x="24" y="6">德國 → 瑞士</text>
+          </g>
+          <g class="destination" data-map-pin="zermatt" transform="translate(560 500)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">策馬特</text><text x="24" y="6">瑞士</text>
+          </g>
+          <g class="destination" data-map-pin="thun-chamonix" transform="translate(610 520)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">圖恩湖 / 夏摩尼</text><text x="24" y="6">瑞士 → 法國</text>
+          </g>
+          <g class="destination" data-map-pin="icif" transform="translate(735 615)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">ICIF 國際廚藝學校</text><text x="24" y="6">義大利</text>
+          </g>
+          <g class="destination" data-map-pin="isiss" transform="translate(830 600)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">ISISS 高中</text><text x="24" y="6">義大利</text>
+          </g>
+          <g class="destination" data-map-pin="auf" transform="translate(850 690)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">AUF 藝術大學</text><text x="24" y="6">佛羅倫斯</text>
+          </g>
+          <g class="destination" data-map-pin="rome" transform="translate(920 745)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">天空之城 / 羅馬</text><text x="24" y="6">義大利</text>
+          </g>
+          <g class="destination" data-map-pin="vatican" transform="translate(950 720)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">羅馬 / 梵蒂岡</text><text x="24" y="6">義大利</text>
+          </g>
+          <g class="destination" data-map-pin="vienna" transform="translate(875 441)">
+            <circle class="halo" r="44"></circle><circle class="dot" r="13"></circle><text x="24" y="-18">維也納</text><text x="24" y="6">奧地利</text>
+          </g>
+          <g class="plane" transform="translate(454 355)">
+            <path d="M24 0-12-10-6 0-12 10Z"></path>
+          </g>
+        </svg>
+      </div>
+      <div class="map-readout">
+        <span>目前位置</span>
+        <strong data-current-place>德國｜慕尼黑、瑞士伯恩</strong>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到開頭">
+        <span class="brand-mark">歐</span>
+        <span>海外參訪成果</span>
+      </a>
+      <nav class="top-nav" aria-label="參訪景點路線">
+        <a href="#munich-bern">慕尼黑/伯恩</a>
+        <a href="#zermatt">策馬特</a>
+        <a href="#thun-chamonix">圖恩/夏摩尼</a>
+        <a href="#icif">ICIF</a>
+        <a href="#isiss">ISISS</a>
+        <a href="#auf">AUF</a>
+        <a href="#rome">羅馬</a>
+        <a href="#vatican">梵蒂岡</a>
+        <a href="#vienna">維也納</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">2026.04.27 - 2026.05.08</p>
+          <h1 id="page-title">歐洲海外參訪成果發表</h1>
+          <p>
+            從德國入境，經過瑞士、法國邊境、義大利，最後抵達奧地利。
+            這次發表會依照實際景點推進：ICIF、ISISS、AUF、羅馬與梵蒂岡都會成為獨立段落。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#story">開始發表</a>
+            <a class="secondary-action" href="https://drive.google.com/drive/folders/1DY9_DP1zpp9ZfDd8n7Sr583uRtwIfW3U" target="_blank" rel="noreferrer">開啟照片資料夾</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="https://drive.google.com/thumbnail?id=1S7JfI2O5a1kz5j2GZ0l89yuSESSgj7Iq&amp;sz=w1600" alt="歐洲海外參訪照片">
+        </div>
+      </section>
+
+      <section class="summary-band" aria-label="行程摘要">
+        <div>
+          <strong>4</strong>
+          <span>參訪國家</span>
+        </div>
+        <div>
+          <strong>12</strong>
+          <span>海外天數</span>
+        </div>
+        <div>
+          <strong>9</strong>
+          <span>行程章節</span>
+        </div>
+        <div>
+          <strong>1</strong>
+          <span>共享相簿</span>
+        </div>
+      </section>
+
+      <section id="story" class="section-intro">
+        <p class="eyebrow">發表動線</p>
+        <h2>跟著地圖一路前進</h2>
+        <p>
+          捲動頁面時，背景地圖會像航線影片一樣移動到當前目的地；右下角會顯示目前景點，照片也依照 Drive 裡的日期資料夾分配。
+        </p>
+      </section>
+
+      <div id="chapters" class="chapters" aria-live="polite"></div>
+    </main>
+
+    <footer class="site-footer">
+      <p>照片來源：共享 Google Drive 相簿。若要改成本機照片，可放在 <code>assets/photos/</code>，再更新 <code>script.js</code> 的照片路徑。</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
